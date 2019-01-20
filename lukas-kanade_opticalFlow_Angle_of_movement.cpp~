@@ -129,7 +129,7 @@ int main( int argc, char** argv )
 
         imshow("LK Demo", image);
         imshow("Histrogram",hist);
-        waitKey(30);
+        waitKey(0);
         //cout <<sum<<'\n';
         
         std::swap(points[1], points[0]);
